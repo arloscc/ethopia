@@ -1,0 +1,40 @@
+@font-face {
+    font-family: myscFont;
+    src: url("Romans Story.otf");
+  }
+
+ 
+
+  :root {
+    font-size: calc(16 * 100vw / 1366);}
+
+
+.E{
+    font-family: myscFont; 
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    font-size: 30px;
+    margin: 2rem 0 0 3rem;
+}
+.gambar{
+    width: 100%;
+
+}
+
+.npmkerenn {
+    position: absolute;
+    font-family: myscFont;
+    font-size: 250%;
+    text-align: center;
+    margin: -46rem 0 0 34rem ;
+}
+
+.npmkeren {
+    position: absolute;
+    font-family: myscFont;
+    font-size: 250%;
+    text-align: center;
+    margin: -41rem 0 0 21rem ;
+}
+

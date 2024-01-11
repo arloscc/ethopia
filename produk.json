@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "Gambar": "versace skirts.jpg",
+      "jenis": "Fancy Product",
+      "Nama": "Black Skrits",
+      "sku": "SKU: BST-498",
+      "Bintang": 5,
+      "diskon": true,
+      "HargaDiskon": "Rp. 400.000",
+      "Harga": "Rp. 250.000",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?"
+    },
+    {
+      "id": 2,
+      "Gambar": "versace.jpg",
+      "jenis": "Fancy Product",
+      "Nama": "Blazer",
+      "sku": "SKU: BST-445",
+      "Bintang": 3,
+      "diskon": true,
+      "HargaDiskon": "Rp. 300.000",
+      "Harga": "Rp. 30.000",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?"
+    },
+    {
+      "id": 3,
+      "Gambar": "tshirt.jpg",
+      "jenis": "Fancy Product",
+      "Nama": "Crop Top",
+      "sku": "SKU: BST-445",
+      "Bintang": 3,
+      "diskon": true,
+      "HargaDiskon": "Rp. 300.000",
+      "Harga": "Rp. 30.000",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?"
+    },
+    {
+      "id": 4,
+      "Gambar": "femina.jpg",
+      "jenis": "Fancy Product",
+      "Nama": "Waistcoat",
+      "sku": "SKU: BST-445",
+      "Bintang": 4,
+      "diskon": true,
+      "HargaDiskon": "Rp. 300.000",
+      "Harga": "Rp. 30.000",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+:root {
+  font-size: calc(16 * 100vw / 1366);
+}
+
+.cari {
+  width: 300%;
+  margin: 2rem;
+  size: 10%;
+  border-radius: 10px;
+  border: rgb(67, 67, 67);
+  background: #ffffff;
+}
+
+.bar {
+  margin: 0 3rem 0 0;
+}
+
+.tekss {
+  position: absolute;
+  margin: 45rem auto;
+  text-align: center;
+  font-family: mytdFont;
+  color: #ffffff;
+  width: 50%;
+  font-size: large;
+  text-shadow: #000000;
+  right: 0;
+  left: 0;
+  font-size: 1rem;
+}
+
+.teks {
+  position: absolute;
+  text-align: center;
+  margin: 18rem;
+  font-family: myscFont;
+  color: #000000;
+  font-size: 200%;
+} 
+
+.about {
+    margin: 27px 5rem 0 1rem;
+  padding: 44 0rem 0 10;
+}
+
+.shop {
+  margin: 27px 2rem 0 45em;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("OpenSauceOne-Regular.woff2");
+}
+
+@font-face {
+  font-family: myscFont;
+  src: url("Romans Story.otf");
+}
+
+@font-face {
+  font-family: mytdFont;
+  src: url("Vogue.ttf");
+}
+
+body {
+  font-family: myFirstFont;
+}
+
+.jeruk {
+  text-align: center;
+  margin: 2rem;
+  font-family: myscFont;
+  font-size: 400%;
+}
+.navbar-brand {
+  margin: -4px 0 0 0;
+}
+
+.gambar {
+  width: 100%;
+}
+
+.qq {
+  flex-direction: row;
+}
+.E {
+  font-family: myscFont;
+  margin: 2px;
+}
+
+.ccc {
+  margin: 1px;
+  font-size: small;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.dropdown-content {
+
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.dropdown-content li, h4 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+}
+
+.dropdown li:hover {background-color: #ddd;}
+
+.show {display: block;
+  border-radius: 12px;}
+
+.produk{
+  text-decoration: none;
+  border-radius: 12px;
+  display: none;
+}
+
+.kucing{
+  text-decoration: none;
+  color: #000000;
+  font-size: medium;
+}
+
+.pindah{
+  margin: 0 0 0 20rem ;
+}

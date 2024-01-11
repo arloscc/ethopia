@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETHOPIA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/">
+</head>
+<body>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="E navbar-brand" href="#">Ethopia</a>
+        
+        <div class="navbar" id="navbarNav">
+          <ul class="qq navbar-nav"> 
+           
+
+            
+            
+           
+            <li class="pindah nav-item">
+                <a class="shop nav-link" href="Blazer shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="about nav-link" href="About.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="dropdown">
+        
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()" onclick="test()">
+        <div id="myDropdown" class="dropdown-content">
+          
+          <ul class="produk" id="prod">
+          <li id="product1"><a class="kucing" href="Blazer shop.html">Blazer</a></li>
+          <li id="product2"><a class="kucing"  href="blazerpth.html">Cream Blazer</a></li>
+          <li id="product3"><a class="kucing" href="rok.html">Black Skrits</a></li>
+          <li id="product4"><a class="kucing" href="croptop.html">Crop Top</a></li>
+          <li id="product5"><a class="kucing" href="Waistcoat.html">Waistcoat</a></li>
+        </div>
+      </div>
+
+      <p class="jeruk"> ETHOPIA DRESS VENUE </p>
+
+      <p class="teks">Introducing the Fashion Phenomenon of 2023: "Ethopia Couture"</p>
+      <p class="tekss">the vibrant tapestry of 2023's fashion landscape, a mesmerizing trend has blossomed, captivating hearts and minds alike with its cultural richness, artistic finesse, and uncompromising quality. Born from the fusion of heritage and contemporary creativity, this trend has redefined the essence of haute couture. Ladies and gentlemen, fashion aficionados and trendsetters, behold the pinnacle of sartorial magnificence – "Ethopia Couture."</p>
+      
+      
+
+      <img class="gambar" src="stoka.jpg" alt="" >
+      <div class="ccc"width="70" >
+        <footer class="row row-cols-7 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"width="70">
+          <div class="col mb-3">
+            <a href="/" class="d" width="70">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <p width="70" class="text-muted">©Kevina Maydiva Heriansaputri 5220411112</p>
+          </div>
+      
+          <div class="col mb-3"width="70" >
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column"width="70">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+     
+</body>
+<script>
+   function test() {
+        if (document.getElementById('prod').style.display === "none"){
+            console.log("test");
+            document.getElementById('prod').style.display = "block";
+        }
+        else{
+            document.getElementById('prod').style.display = "none";
+        }
+      }
+function filterFunction() {
+  let input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  /* change everything to lower or upper case in order 
+  to make the search case insensitive */
+  filter = input.value.toUpperCase(); 
+  div = document.getElementById("myDropdown");
+  li = div.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    txtValue = li[i].textContent || li[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}</script>
+</html>
